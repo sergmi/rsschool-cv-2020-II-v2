@@ -1,0 +1,182 @@
+html{
+	min-height: 100%;
+	height: auto;
+	position: relative;
+	user-select: none;
+	cursor: default;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+body{
+	padding: 0;
+	margin: 0;
+}
+
+figure{
+	max-height: 206px;
+	margin: 0 auto;
+	padding: 30px 0;
+	display: flex;
+	justify-content: center;
+	background-color: #101267;
+	overflow: hidden;
+}
+
+figcaption{
+	margin-left: 20px;
+	margin-right: 5px;
+	padding-left: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.first-last-name{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 5px;
+}
+
+.first-name{
+	margin-right: 10px;
+}
+
+figcaption h2{
+	font-size: 28px;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: 500;
+	color: #C7FCF5;
+	letter-spacing: 0.03em;
+	padding: 0;
+	margin: 0;
+	max-height: 30px;
+	overflow: hidden;
+}
+
+figcaption h3{
+	font-size: 17px;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: 500;
+	color: #00826C;
+	letter-spacing: 0.05em;
+	padding: 0;
+	margin: 0;
+	margin-bottom: 16px;
+	max-height: 22px;
+	overflow: hidden;
+}
+
+figcaption ul{	
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	margin-left: 20px;
+	overflow: hidden;
+}
+
+figcaption li{	
+	margin-bottom: 4px;
+}
+
+figcaption li span{	
+	color: #00B498;
+}
+
+figcaption li span:hover{	
+	color: #FFF;
+}
+
+figcaption li>a{	
+	color: #889988;
+	text-decoration: none;
+}
+
+figcaption li>a:hover{	
+	color: #FFF;
+}
+
+.about-hex-container, .about-hex-container div{
+	height: 206px;
+	width: 180px;
+	transform-origin: 50% 50%;
+	overflow: hidden;
+}
+
+.about-hex-container div{
+	height: 100%;
+	width: 100%;
+}
+
+.about-hex-container{
+	margin-left: 20px;
+	transform: rotate(-30deg);
+}
+
+.about-hex-item_1{
+	transform: rotate(120deg);
+}
+
+.about-hex-item_2{
+	transform: rotate(-60deg);
+}
+
+.about-hex-img{
+	background-image:  url('../img/Person.png');
+	background-position: -120px 0;
+	background-color:  #599888;
+}
+
+.education{
+	padding-left: 20px;
+	font-size: 20px;
+	border-radius: 10px;
+	background-image: linear-gradient(to top, rgb(226,247,10) -75%, transparent 80%);
+	background-color: rgba(75,75,75,0.2);
+}
+
+.education>legend{
+	margin: 0 auto;	
+}
+
+fieldset{
+	
+	padding-left: 20px;
+	font-size: 20px;
+	border-radius: 10px;	
+	background-color: rgba(75,75,75,0.2);
+}
+
+fieldset>span{
+	display: block;
+	margin: 0 auto;	
+	text-align: center;
+	font-size: 22px;
+	font-family: Verdana, Arial, sans-serif;
+	color: #EEEEEE;
+}
+
+legend{
+	font-family: Cambria, Georgia, serif;
+	color: rgba(91,75,52,0.8);
+}
+
+.empty-block{
+	padding: 0 0 60px 0;
+	margin: 0;
+}
+
+footer{
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 50px;
+	color: #446677;
+	background-color: #333333;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+}
+
+footer>span{
+	margin-left: 60px;
+}
